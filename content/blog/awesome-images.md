@@ -1,9 +1,11 @@
 ---
-path: awesome-images
+path: images
 date: 2020-06-06T01:22:55.506Z
-title: Awesome Images
+title: How to use images
 description: Fix for gatsby-plugin-mdx and gatsby-remark-images
 ---
+
+Here I can just edit the text of the post that I'm going to release
 
 ![Great Gatsby](/../assets/great2.jpg "Great Gatsby")
 
