@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: thomaswang/gatsby-personal-starter-blog
+  repo: diego-romero/test-blog
 
 media_folder: content/assets
 public_folder: ../assets
@@ -9,6 +9,16 @@ collections:
   - name: blog
     label: Blog
     folder: content/blog
+    create: true
+    fields:
+      - { name: path, label: Path }
+      - { name: date, label: Date, widget: date }
+      - { name: title, label: Title }
+      - { name: description, label: Description }
+      - { name: body, label: Body, widget: markdown }
+  - name: journalism
+    label: Journalism
+    folder: content/journalism
     create: true
     fields:
       - { name: path, label: Path }
